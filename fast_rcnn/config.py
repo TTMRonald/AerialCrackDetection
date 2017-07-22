@@ -9,11 +9,9 @@ class Config:
 
 		# setting for data augmentation
 		# augment with horizontal flips in training
-		self.use_horizontal_flips = False
-		
+		self.use_horizontal_flips = False	
 		# Augment with vertical flips in training
 		self.use_vertical_flips = False
-		
 		# Augment with 90 degree rotations in training
 		self.rot_90 = False
 

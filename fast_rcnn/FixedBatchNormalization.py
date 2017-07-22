@@ -71,7 +71,6 @@ class FixedBatchNormalization(Layer):
                 x, broadcast_running_mean, broadcast_running_std,
                 broadcast_beta, broadcast_gamma,
                 epsilon=self.epsilon)
-
         return x_normed
 
     def get_config(self):

@@ -143,7 +143,6 @@ def nn_base(input_tensor=None, trainable=False):
     # mixed 5, 6: 17 x 17 x 768
     for i in range(2):
         branch1x1 = conv2d_bn(x, 192, 1, 1)
-
         branch7x7 = conv2d_bn(x, 160, 1, 1)
         branch7x7 = conv2d_bn(branch7x7, 160, 1, 7)
         branch7x7 = conv2d_bn(branch7x7, 192, 7, 1)

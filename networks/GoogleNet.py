@@ -29,7 +29,6 @@ def conv2d_bn(x, nb_filter,num_row, num_col, strides=(1,1), padding='same', name
 
 
 def nn_base(input_tensor=None, trainable=False):
-
     # Determine proper input shape
     if K.image_dim_ordering() == 'th':
         input_shape = (3, None, None)

@@ -59,7 +59,6 @@ def nn_base(input_tensor=None, trainable=False):
 
     # mixed 0, 1, 2: 35 x 35 x 256
     branch1x1 = conv2d_bn(x, 64, 1, 1)
-
     branch5x5 = conv2d_bn(x, 48, 1, 1)
     branch5x5 = conv2d_bn(branch5x5, 64, 5, 5)
 

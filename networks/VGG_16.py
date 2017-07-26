@@ -7,7 +7,6 @@ from __future__ import print_function
 from __future__ import absolute_import
 from keras.layers import Input, Add, Dense, Dropout, Activation, Flatten, Convolution2D, MaxPooling2D, TimeDistributed
 from keras import backend as K
-
 from fast_rcnn.RoiPoolingConv import RoiPoolingConv
 from fast_rcnn.FixedBatchNormalization import FixedBatchNormalization
 

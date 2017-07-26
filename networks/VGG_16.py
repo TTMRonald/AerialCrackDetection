@@ -66,7 +66,6 @@ def rpn(base_layers,num_anchors):
 def classifier(base_layers, input_rois, batch_size, nb_classes = 3, trainable=False):
 
     # compile times tend to be very high, so we use smaller ROI pooling regions to workaround
-
     if K.backend() == 'tensorflow':
         pooling_regions = 14
         input_shape = (batch_size,14,14,1024)

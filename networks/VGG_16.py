@@ -10,7 +10,6 @@ from keras import backend as K
 from fast_rcnn.RoiPoolingConv import RoiPoolingConv
 from fast_rcnn.FixedBatchNormalization import FixedBatchNormalization
 
-
 def nn_base(input_tensor=None, trainable=False):
 
     # Determine proper input shape

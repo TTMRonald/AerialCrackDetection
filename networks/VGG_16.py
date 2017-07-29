@@ -52,7 +52,6 @@ def nn_base(input_tensor=None, trainable=False):
     x = Convolution2D(512, (3, 3), activation='relu', padding='same', name='block5_conv1')(x)
     x = Convolution2D(512, (3, 3), activation='relu', padding='same', name='block5_conv2')(x)
     x = Convolution2D(512, (3, 3), activation='relu', padding='same', name='block5_conv3')(x)
-
     return x
 
 def rpn(base_layers,num_anchors):

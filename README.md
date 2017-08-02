@@ -1,5 +1,6 @@
 # AerialCrackDetection_Keras
 AerialCrackDetection_Keras is a project about object detection from aerial imagery using pavament crack data. The project uses the open source software library Keras and Tensorflow, with a ZF or VGG16 or ZF or VGG16 or GoogleNet or ResNet50 or ResNet101 neuronal networks. AerialCrackDetection_Keras is based on Faster RCNN.
+ - PS: The project is only the original version, the improved version is not open.
 
 ### First part : Collecting data
 

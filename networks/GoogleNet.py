@@ -2,6 +2,7 @@
 '''
 # GoogleNet_Net model for Keras.
 '''
+
 from __future__ import print_function
 from __future__ import absolute_import
 from keras.layers import Input, Add, Dense, Dropout, Activation, Flatten, Convolution2D, AveragePooling2D, MaxPooling2D, TimeDistributed, concatenate
